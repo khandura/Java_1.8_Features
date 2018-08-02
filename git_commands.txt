@@ -1,0 +1,8 @@
+Git commands
+
+git init 		--> to convert a project into git repo.
+git add .		--> to add all files to your git repo.
+git commit -m 'commit message' 		--> commits the modified files to local repo.
+git remote -v	--> provides the remote version details, fetch and push URLs.
+git remote add origin https://github.com/khandura/<existing_git_project_name>.git  --> remote is reffering the remote URL, origin is your local repo, URL is the location where you want repo to be stored.
+git push -u origin master   		--> to push your local branch on remote as master.
